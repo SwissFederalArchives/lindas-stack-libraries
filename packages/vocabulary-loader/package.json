@@ -1,0 +1,29 @@
+{
+  "name": "@lindas/vocabulary-loader",
+  "version": "1.0.4",
+  "description": "RDF Vocabulary Loader",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "**/*.js",
+    "**/*.d.ts",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "prepack": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SwissFederalArchives/lindas-stack-libraries.git",
+    "directory": "packages/vocabulary-loader"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@lindas/env": "workspace:*",
+    "@rdfjs/parser-n3": "^2.0.1",
+    "@types/rdfjs__environment": "1",
+    "rdf-dataset-ext": "^1.1.0"
+  }
+}

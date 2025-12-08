@@ -1,0 +1,51 @@
+{
+  "name": "@lindas/vocabulary-extras",
+  "version": "2.0.6",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./builders": "./builders/index.js",
+    "./builders/loose": "./builders/loose.js",
+    "./register": "./register.js",
+    "./prefixes": "./prefixes.js"
+  },
+  "scripts": {
+    "prepack": "tsc"
+  },
+  "files": [
+    "bin",
+    "**/*.js",
+    "**/*.d.ts",
+    "**/*.d.ts.map",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "rdf",
+    "rdfjs",
+    "prefix",
+    "namespace",
+    "ontologies",
+    "vocabularies"
+  ],
+  "dependencies": {
+    "@lindas/vocabulary-loader": "workspace:*",
+    "@lindas/vocabulary-extras-builders": "workspace:*",
+    "@lindas/prefixes": "workspace:*",
+    "@vocabulary/b59": "^0.1.0",
+    "@vocabulary/code": "^1.0.0",
+    "@vocabulary/cube": "^1.0.0",
+    "@vocabulary/meta": "^1.0.0",
+    "@vocabulary/pipeline": "^1.1.1",
+    "@vocabulary/relation": "^1.0.0"
+  },
+  "description": "Additional RDF Vocabularies",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SwissFederalArchives/lindas-stack-libraries.git",
+    "directory": "packages/vocabulary-extras"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

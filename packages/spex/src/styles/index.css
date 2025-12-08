@@ -1,0 +1,33 @@
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display:400,700';
+
+@import 'tailwindcss/base';
+@import './base.css';
+
+@import 'bulma/css/bulma.css';
+
+@import 'tailwindcss/components';
+@import './components.css';
+@import './splitpanes.css';
+
+@import 'tailwindcss/utilities';
+
+@layer components {
+
+    .bg-dark {
+        background: #0F2027 !important;
+        background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027) !important;
+        background: linear-gradient(to right, #2C5364, #203A43, #0F2027) !important;
+    }
+
+    .bg-light {
+        background: #ffeeee;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffeeee, #ddefbb);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffeeee, #ddefbb);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+
+    /* ... */
+}

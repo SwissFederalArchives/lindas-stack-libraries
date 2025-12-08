@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "strict": true,
+    "strictNullChecks": true,
+    "lib": [
+      "ES2020",
+      "webworker"
+    ],
+    "declaration": true,
+    "declarationMap": true
+  }
+}

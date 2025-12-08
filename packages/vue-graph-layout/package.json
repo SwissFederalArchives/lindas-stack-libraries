@@ -1,0 +1,49 @@
+{
+  "name": "@lindas/vue-graph-layout",
+  "version": "0.1.4",
+  "description": "Vue Graph Layout Component",
+  "author": "Zazuko (https://zazuko.com)",
+  "main": "src/index.js",
+  "files": [
+    "/src"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "echo no tests"
+  },
+  "dependencies": {
+    "d3": "^7.8.2",
+    "dagre": "^0.8.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/eslint-parser": "^7.19.1",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "autoprefixer": "^10.4.13",
+    "core-js": "^3.27.2",
+    "eslint": "^8.33.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "vue": "^3.2.45"
+  },
+  "peerDependencies": {
+    "vue": "3.x"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SwissFederalArchives/lindas-stack-libraries.git",
+    "directory": "packages/vue-graph-layout"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
