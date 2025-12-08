@@ -29,9 +29,9 @@
     "vocabularies"
   ],
   "dependencies": {
-    "@lindas/vocabulary-loader": "workspace:*",
-    "@lindas/vocabulary-extras-builders": "workspace:*",
-    "@lindas/prefixes": "workspace:*",
+    "@lindas/vocabulary-loader": "*",
+    "@lindas/vocabulary-extras-builders": "*",
+    "@lindas/prefixes": "*",
     "@vocabulary/b59": "^0.1.0",
     "@vocabulary/code": "^1.0.0",
     "@vocabulary/cube": "^1.0.0",

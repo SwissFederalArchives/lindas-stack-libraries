@@ -21,7 +21,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@lindas/env": "workspace:*",
+    "@lindas/env": "*",
     "@rdfjs/parser-n3": "^2.0.1",
     "@types/rdfjs__environment": "1",
     "rdf-dataset-ext": "^1.1.0"

@@ -26,8 +26,8 @@
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@json2csv/plainjs": "^7.0.4",
-    "@lindas/yasgui-utils": "workspace:*",
-    "@lindas/yasqe": "workspace:*",
+    "@lindas/yasgui-utils": "*",
+    "@lindas/yasqe": "*",
     "codemirror": "^5.51.0",
     "colors": "^1.4.0",
     "column-resizer": "^1.4.0",

@@ -38,8 +38,8 @@
     "@rdfjs/term-set": "^2.0.1",
     "@rdfjs/traverser": "^0.1.2",
     "@tpluscode/rdf-ns-builders": "^5",
-    "@lindas/env-core": "workspace:*",
-    "@lindas/prefixes": "workspace:*",
+    "@lindas/env-core": "*",
+    "@lindas/prefixes": "*",
     "clownface": "^2.0.2",
     "get-stream": "^9.0.1",
     "rdf-dataset-ext": "^1.1.0"

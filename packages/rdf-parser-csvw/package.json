@@ -70,7 +70,7 @@
     "@types/rdfjs__dataset": "^2.0.7",
     "@typescript-eslint/eslint-plugin": "^7.11.0",
     "@typescript-eslint/parser": "^7.11.0",
-    "@lindas/env": "workspace:*",
+    "@lindas/env": "*",
     "eslint-import-resolver-typescript": "^3.6.1",
     "c8": "^9.1.0",
     "chai": "^4.4.1",

@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@rdfjs/parser-n3": "^2.0.1",
-    "@lindas/vocabulary-loader": "workspace:*",
+    "@lindas/vocabulary-loader": "*",
     "@vocabulary/acl": "^1.0.4",
     "@vocabulary/as": "^1.0.5",
     "@vocabulary/bibo": "^1.0.5",
@@ -127,8 +127,8 @@
     "@vocabulary/xhv": "^1.0.5",
     "@vocabulary/xkos": "^1.0.5",
     "@vocabulary/xsd": "^1.0.5",
-    "@lindas/env": "workspace:*",
-    "@lindas/prefixes": "workspace:*",
+    "@lindas/env": "*",
+    "@lindas/prefixes": "*",
     "commander": "^10.0.0",
     "rdf-dataset-ext": "^1",
     "readable-stream": "^4.3.0"

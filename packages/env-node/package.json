@@ -31,8 +31,8 @@
   "dependencies": {
     "@rdfjs/fetch-lite": "^3.2.2",
     "@rdfjs/formats": "^4.0.0",
-    "@lindas/env": "workspace:*",
-    "@lindas/rdf-utils-fs": "workspace:*"
+    "@lindas/env": "*",
+    "@lindas/rdf-utils-fs": "*"
   },
   "peerDependencies": {
     "@types/rdfjs__fetch-lite": "^3.0.11",

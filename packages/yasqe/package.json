@@ -24,7 +24,7 @@
     "directory": "packages/yasqe"
   },
   "dependencies": {
-    "@lindas/yasgui-utils": "workspace:*",
+    "@lindas/yasgui-utils": "*",
     "codemirror": "^5.51.0",
     "lodash-es": "^4.17.15",
     "query-string": "^6.10.1"
