@@ -1,9 +1,10 @@
 import assert from 'assert';
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import { getStreamAsArray as streamToArray } from 'get-stream';
 import XlsxToObjectTransform from '../lib/XlsxToObjectTransform.js';
-const __dirname = path.dirname(new URL(import.meta.url).pathname);
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 describe('XlsxToObjectTransform', () => {
     it('should be a constructor', () => {
         assert.strictEqual(typeof XlsxToObjectTransform, 'function');
