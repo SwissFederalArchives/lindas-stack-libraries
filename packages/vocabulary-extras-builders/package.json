@@ -8,7 +8,7 @@
     "./loose": "./loose.js"
   },
   "scripts": {
-    "generate": "npx --node-options='--loader ts-node/esm' rdf-ns-builders generate -p @zazuko/vocabulary-extras -o .",
+    "generate": "npx --node-options='--loader ts-node/esm' rdf-ns-builders generate -p @lindas/vocabulary-extras -o .",
     "prepack": "tsc",
     "build": "tsc"
   },
