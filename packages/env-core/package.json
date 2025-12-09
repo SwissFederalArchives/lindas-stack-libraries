@@ -1,11 +1,12 @@
 {
   "name": "@lindas/env-core",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "type": "module",
   "main": "Environment.js",
   "scripts": {
     "test": "mocha --package ../../package.json",
-    "prepack": "tsc"
+    "prepack": "tsc",
+    "build": "tsc"
   },
   "files": [
     "Environment.js",

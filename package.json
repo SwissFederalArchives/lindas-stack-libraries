@@ -1,6 +1,6 @@
 {
   "name": "lindas-stack-libraries",
-  "version": "0.0.0",
+  "version": "0.0.4",
   "private": true,
   "description": "LINDAS RDF Stack - Monorepo for all LINDAS RDF libraries",
   "repository": {
@@ -21,7 +21,8 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.0",
-    "turbo": "^2.3.0"
+    "turbo": "^2.3.0",
+    "typescript": "^5.3.0"
   },
   "overrides": {
     "braces": "^3.0.3",

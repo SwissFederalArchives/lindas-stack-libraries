@@ -46,12 +46,12 @@
 
 <script>
 import { ArrowPathIcon } from '@heroicons/vue/24/solid'
-import { shrink as _shrink } from '@zazuko/prefixes'
-import { GraphLayout } from '@zazuko/vue-graph-layout'
+import { shrink as _shrink } from '@lindas/prefixes'
+import { GraphLayout } from '@lindas/vue-graph-layout'
 import { Splitpanes, Pane } from 'splitpanes'
 import 'splitpanes/dist/splitpanes.css'
 import '@rdfjs-elements/rdf-editor'
-import rdfEnvironment from '@zazuko/env/web'
+import rdfEnvironment from '@lindas/env/web'
 import { tablesFromSHACL } from '../shacl'
 import { rdf, sh } from '../namespace'
 import ResourceCard from '../components/ResourceCard.vue'

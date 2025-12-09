@@ -1,6 +1,6 @@
 {
   "name": "@lindas/rdf-utils-fs",
-  "version": "3.3.1",
+  "version": "3.3.2",
   "description": "RDF Filesystem Utilities",
   "main": "index.js",
   "type": "module",
@@ -9,7 +9,8 @@
     "lint": "eslint . --ext ts --ignore-path .gitignore --quiet",
     "test": "mocha",
     "prepack": "tsc",
-    "release": "changeset publish"
+    "release": "changeset publish",
+    "build": "tsc"
   },
   "files": [
     "*.js",

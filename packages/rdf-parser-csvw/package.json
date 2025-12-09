@@ -1,6 +1,6 @@
 {
   "name": "@lindas/rdf-parser-csvw",
-  "version": "0.17.0",
+  "version": "0.17.1",
   "description": "CSVW Parser",
   "main": "index.js",
   "type": "module",
@@ -9,7 +9,8 @@
     "test": "mocha --ignore test/spec.test.js",
     "test:w3c": "mocha test/spec.test.js --delay",
     "release": "changeset publish",
-    "prepack": "tsc"
+    "prepack": "tsc",
+    "build": "tsc"
   },
   "files": [
     "CHANGELOG.md",

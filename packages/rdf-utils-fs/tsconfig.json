@@ -8,5 +8,6 @@
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "skipLibCheck": true
-  }
+  },
+  "exclude": ["test", "node_modules"]
 }

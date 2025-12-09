@@ -1,6 +1,6 @@
 {
   "name": "@lindas/vocabulary-loader",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "RDF Vocabulary Loader",
   "type": "module",
   "main": "index.js",
@@ -10,7 +10,8 @@
     "CHANGELOG.md"
   ],
   "scripts": {
-    "prepack": "tsc"
+    "prepack": "tsc",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

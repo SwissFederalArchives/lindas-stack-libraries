@@ -1,0 +1,13 @@
+import FsUtilsFactory from '@lindas/rdf-utils-fs/Factory.js';
+export { default as Environment } from '@lindas/env/Environment.js';
+export declare function create(): import("@lindas/env").DerivedEnvironment<import("@lindas/env").DerivedEnvironment<import("@rdfjs/environment/Environment.js").Environment<import("@rdfjs/data-model/Factory.js").default | import("@rdfjs/formats/Factory.js").FormatsFactory | import("@rdfjs/term-map/Factory.js").TermMapFactory | import("@tpluscode/rdf-ns-builders").default | import("clownface/Factory.js").default | import("@rdfjs/term-set/Factory.js").TermSetFactory | import("@rdfjs/namespace/Factory.js").NamespaceFactory | import("@rdfjs/traverser/Factory.js").TraverserFactory>, import("@rdfjs/environment/Environment.js").Environment<{
+    dataset: import("@lindas/env/lib/DatasetFactoryExt.js").FactoryMethod<import("@lindas/env/lib/DatasetExt.js").Dataset>;
+    init(this: import("@rdfjs/environment/Environment.js").Environment<import("@rdfjs/data-model/Factory.js").default | import("@rdfjs/formats/Factory.js").FormatsFactory | import("@rdfjs/term-map/Factory.js").TermMapFactory | import("@lindas/env/lib/DatasetFactoryExt.js").DatasetFactoryExt<import("@lindas/env/lib/DatasetExt.js").Dataset>>): void;
+}>>, import("@rdfjs/environment/Environment.js").Environment<FsUtilsFactory | import("@rdfjs/fetch-lite/Factory.js").FetchFactory>>;
+declare const _default: import("@lindas/env").DerivedEnvironment<import("@lindas/env").DerivedEnvironment<import("@rdfjs/environment/Environment.js").Environment<import("@rdfjs/data-model/Factory.js").default | import("@rdfjs/formats/Factory.js").FormatsFactory | import("@rdfjs/term-map/Factory.js").TermMapFactory | import("@tpluscode/rdf-ns-builders").default | import("clownface/Factory.js").default | import("@rdfjs/term-set/Factory.js").TermSetFactory | import("@rdfjs/namespace/Factory.js").NamespaceFactory | import("@rdfjs/traverser/Factory.js").TraverserFactory>, import("@rdfjs/environment/Environment.js").Environment<{
+    dataset: import("@lindas/env/lib/DatasetFactoryExt.js").FactoryMethod<import("@lindas/env/lib/DatasetExt.js").Dataset>;
+    init(this: import("@rdfjs/environment/Environment.js").Environment<import("@rdfjs/data-model/Factory.js").default | import("@rdfjs/formats/Factory.js").FormatsFactory | import("@rdfjs/term-map/Factory.js").TermMapFactory | import("@lindas/env/lib/DatasetFactoryExt.js").DatasetFactoryExt<import("@lindas/env/lib/DatasetExt.js").Dataset>>): void;
+}>>, import("@rdfjs/environment/Environment.js").Environment<FsUtilsFactory | import("@rdfjs/fetch-lite/Factory.js").FetchFactory>>;
+export default _default;
+export type NodeEnv = ReturnType<typeof create>;
+//# sourceMappingURL=index.d.ts.map

@@ -14,9 +14,7 @@
     "sourceMap": true,
     "strictPropertyInitialization": false,
     "baseUrl": ".",
-    "types": [
-      "webpack-env"
-    ],
+    "types": ["vite/client"],
     "lib": [
       "esnext",
       "dom",
