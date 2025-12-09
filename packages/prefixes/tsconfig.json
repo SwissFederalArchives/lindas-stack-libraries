@@ -3,6 +3,8 @@
   "files": [
     "index.ts",
     "expand.ts",
-    "prefixes.ts"
+    "prefixes.ts",
+    "shrink.ts",
+    "lib/prefixesOnly.ts"
   ]
 }

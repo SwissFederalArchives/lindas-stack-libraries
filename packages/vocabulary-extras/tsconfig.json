@@ -2,18 +2,21 @@
   "compilerOptions": {
     "target": "ES2022",
     "module": "ES2022",
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "moduleResolution": "node",
     "esModuleInterop": true,
     "noImplicitAny": false,
     "strict": true,
     "strictNullChecks": true,
+    "skipLibCheck": true,
     "lib": [
-      "ES2020",
-      "webworker"
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
     ],
     "declaration": true,
     "declarationMap": true
-  }
+  },
+  "exclude": ["test", "node_modules"]
 }

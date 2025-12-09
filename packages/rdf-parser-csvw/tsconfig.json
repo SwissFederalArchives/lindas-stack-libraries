@@ -6,6 +6,8 @@
     "declaration": true,
     "strict": true,
     "strictNullChecks": true,
-    "noImplicitAny": true
-  }
+    "noImplicitAny": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["test", "node_modules", "bin"]
 }

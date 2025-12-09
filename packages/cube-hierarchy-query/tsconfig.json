@@ -5,6 +5,8 @@
     "moduleResolution": "NodeNext",
     "esModuleInterop": true,
     "declaration": true,
-    "skipLibCheck": true
-  }
+    "skipLibCheck": true,
+    "noImplicitAny": false
+  },
+  "exclude": ["test", "examples", "node_modules"]
 }

@@ -1,12 +1,13 @@
 {
   "name": "@lindas/env",
-  "version": "3.0.1",
+  "version": "3.0.3",
   "description": "RDF/JS Environment",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "prepack": "tsc",
-    "test": "mocha --package ../../package.json"
+    "test": "mocha --package ../../package.json",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

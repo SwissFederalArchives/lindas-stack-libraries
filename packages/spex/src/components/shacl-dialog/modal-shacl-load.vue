@@ -30,7 +30,7 @@
 <script>
 import { Readable } from 'stream'
 import { XMarkIcon } from '@heroicons/vue/24/solid'
-import rdfEnvironment from '@zazuko/env/web'
+import rdfEnvironment from '@lindas/env/web'
 import { rdf, spex } from '../../namespace'
 import SpexDialog from './dialog.vue'
 
