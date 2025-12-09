@@ -1,9 +1,10 @@
 import assert from 'assert';
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import rdf from '@lindas/env-node';
 import XlsxParser from '../index.js';
-const __dirname = path.dirname(new URL(import.meta.url).pathname);
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 function datasetFromJsonLdFs(filename) {
     return rdf.dataset().import(rdf.fromFile(filename));
 }
