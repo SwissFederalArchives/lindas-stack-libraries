@@ -25,14 +25,16 @@ describe('rdf-parser-csvw-xlsx', () => {
       const expected = results[1]
 
       const input = fs.createReadStream(path.join(__dirname, 'support/example.xlsx'))
-      const parser = new XlsxParser({ factory: rdf })
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const parser = new XlsxParser({ factory: rdf as any })
       const stream = parser.import(input, {
         baseIRI: 'http://example.org/base',
         metadata,
         sheet: 'sheet1',
       })
 
-      return rdf.dataset().import(stream).then(dataset => {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      return rdf.dataset().import(stream).then((dataset: any) => {
         assert.strictEqual(dataset.toCanonical(), expected.toCanonical())
       })
     })
