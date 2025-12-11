@@ -10,7 +10,15 @@
   "scripts": {
     "update-prefixes": "./.build/prefixes.sh > prefixes.ts",
     "prepack": "tsc",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "ts-node": "^10.9.2"
   },
   "main": "index.js",
   "exports": {
