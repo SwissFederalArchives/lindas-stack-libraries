@@ -7,5 +7,6 @@
     "strict": true,
     "strictNullChecks": true,
     "noImplicitAny": true
-  }
+  },
+  "exclude": ["test", "node_modules"]
 }

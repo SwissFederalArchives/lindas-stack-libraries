@@ -4,11 +4,32 @@
   "description": "RDF/JS Environment",
   "type": "module",
   "main": "index.js",
+  "types": "index.d.ts",
   "exports": {
-    ".": "./index.js",
-    "./web": "./web.js",
-    "./Environment": "./Environment.js",
-    "./formats": "./formats.js",
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./web": {
+      "types": "./web.d.ts",
+      "default": "./web.js"
+    },
+    "./web.js": {
+      "types": "./web.d.ts",
+      "default": "./web.js"
+    },
+    "./Environment": {
+      "types": "./Environment.d.ts",
+      "default": "./Environment.js"
+    },
+    "./Environment.js": {
+      "types": "./Environment.d.ts",
+      "default": "./Environment.js"
+    },
+    "./formats": {
+      "types": "./formats.d.ts",
+      "default": "./formats.js"
+    },
     "./lib/*": "./lib/*.js"
   },
   "scripts": {
