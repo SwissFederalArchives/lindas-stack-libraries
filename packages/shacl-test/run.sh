@@ -114,7 +114,7 @@ for file in $invalidCases; do
 
   report=$(sh -c "$command" < "$file" 2> "$file.log" | node "$SCRIPT_PATH"/pretty-print.js --prefixes "${prefixes[@]}")
 
-  if ! echo "$report" | npx approvals "$name" --outdir "$(dirname "$file")" "$approvalsFlags" > /dev/null 2>&1 ; then
+  if ! echo "$report" | npx approvals "$name" --outdir "$(dirname "$file")" $approvalsFlags > /dev/null 2>&1 ; then
     bash "$SCRIPT_PATH"/report-failure.sh "$file" "$(loadFullShape "$shapesPath")" "$(cat "$file")" "check results"
     FAILED=1
   else
