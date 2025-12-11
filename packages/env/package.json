@@ -1,9 +1,16 @@
 {
   "name": "@lindas/env",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "RDF/JS Environment",
   "type": "module",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./web": "./web.js",
+    "./Environment": "./Environment.js",
+    "./formats": "./formats.js",
+    "./lib/*": "./lib/*.js"
+  },
   "scripts": {
     "prepack": "tsc",
     "test": "mocha --package ../../package.json",
@@ -43,7 +50,9 @@
     "@lindas/prefixes": "*",
     "clownface": "^2.0.2",
     "get-stream": "^9.0.1",
-    "rdf-dataset-ext": "^1.1.0"
+    "rdf-dataset-ext": "^1.1.0",
+    "readable-stream": "^4.5.2",
+    "util": "^0.12.5"
   },
   "peerDependencies": {
     "@rdfjs/types": "^2",
