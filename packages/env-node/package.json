@@ -1,6 +1,6 @@
 {
   "name": "@lindas/env-node",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "RDF/JS Environment for Node.js",
   "type": "module",
   "main": "index.js",
