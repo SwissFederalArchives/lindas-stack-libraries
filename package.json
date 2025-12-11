@@ -33,7 +33,8 @@
     "serialize-javascript": "^6.0.2",
     "postcss": "^8.4.31",
     "axios": "^1.7.9",
-    "esbuild": "^0.25.0"
+    "esbuild": "^0.25.0",
+    "@zazuko/rdf-parser-csvw-xlsx": "npm:@lindas/rdf-parser-csvw-xlsx@^1.0.1"
   },
   "engines": {
     "node": ">=18"
