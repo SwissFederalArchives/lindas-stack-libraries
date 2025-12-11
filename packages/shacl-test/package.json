@@ -6,7 +6,8 @@
     "shacl-test": "./run.sh"
   },
   "scripts": {
-    "release": "changeset publish"
+    "release": "changeset publish",
+    "test": "echo \"No tests yet\""
   },
   "keywords": [
     "SHACL",

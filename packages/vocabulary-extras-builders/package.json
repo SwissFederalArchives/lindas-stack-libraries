@@ -10,7 +10,8 @@
   "scripts": {
     "generate": "npx --node-options='--loader ts-node/esm' rdf-ns-builders generate -p @lindas/vocabulary-extras -o .",
     "prepack": "tsc",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "mocha"
   },
   "files": [
     "**/*.js",
@@ -25,7 +26,12 @@
   },
   "devDependencies": {
     "@rdfjs/types": "^1.1.0",
-    "@tpluscode/rdf-ns-builder-generator": "^1.1.1"
+    "@tpluscode/rdf-ns-builder-generator": "^1.1.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "ts-node": "^10.9.2"
   },
   "description": "Vocabulary Extras Builders",
   "repository": {

@@ -10,7 +10,8 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
     "prepack": "npm run build:lib",
     "release": "changeset publish",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "echo \"No tests yet\""
   },
   "main": "dist/spex.js",
   "exports": {
