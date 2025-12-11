@@ -1,6 +1,6 @@
 {
   "name": "@lindas/shacl-test",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "type": "module",
   "bin": {
     "shacl-test": "./run.sh"
