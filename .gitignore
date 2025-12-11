@@ -3,9 +3,11 @@ node_modules/
 
 # Build outputs
 dist/
-lib/
 build/
 *.tsbuildinfo
+
+# Ignore lib/ in root but not in packages (source files are in packages/*/lib/)
+/lib/
 
 # IDE
 .idea/
