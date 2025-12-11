@@ -8,7 +8,7 @@ if [ -z "$message" ]; then
   message="check report"
 fi
 
-playground=$("$SCRIPT_PATH"/shorten-report.js "$2" "$3")
+playground=$(node "$SCRIPT_PATH"/shorten-report.js "$2" "$3")
 echo "❌ FAIL - $relativePath. $message: $playground"
 
 # git diff non interactive
