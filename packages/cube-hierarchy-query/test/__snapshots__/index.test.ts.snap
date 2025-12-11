@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@zazuko/cube-hierarchy-query getHierarchy loads all levels 1`] = `
+exports[`@lindas/cube-hierarchy-query getHierarchy loads all levels 1`] = `
 "PREFIX schema: <http://schema.org/>
 CONSTRUCT {
   ?resource2 schema:containedInPlace ?resource1.
