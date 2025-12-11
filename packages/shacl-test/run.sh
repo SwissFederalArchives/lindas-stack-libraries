@@ -63,7 +63,7 @@ if [ "$debug" = true ]; then
 fi
 
 loadFullShape() {
-  "$SCRIPT_PATH"/load-graph.js "$1" | "$SCRIPT_PATH"/pretty-print.js --prefixes "${prefixes[@]}"
+  node "$SCRIPT_PATH"/load-graph.js "$1" | node "$SCRIPT_PATH"/pretty-print.js --prefixes "${prefixes[@]}"
 }
 
 testsRun=0
@@ -87,7 +87,7 @@ for file in $validCases; do
   } < "$file"
 
   if [ $success -ne 0 ] ; then
-    "$SCRIPT_PATH"/report-failure.sh "$file" "$(loadFullShape "$shapesPath")" "$(cat "$file")"
+    bash "$SCRIPT_PATH"/report-failure.sh "$file" "$(loadFullShape "$shapesPath")" "$(cat "$file")"
     FAILED=1
   else
     echo "✅ PASS - $relativePath"
@@ -112,10 +112,10 @@ for file in $invalidCases; do
     continue
   fi
 
-  report=$(sh -c "$command" < "$file" 2> "$file.log" | "$SCRIPT_PATH"/pretty-print.js --prefixes "${prefixes[@]}")
+  report=$(sh -c "$command" < "$file" 2> "$file.log" | node "$SCRIPT_PATH"/pretty-print.js --prefixes "${prefixes[@]}")
 
   if ! echo "$report" | npx approvals "$name" --outdir "$(dirname "$file")" "$approvalsFlags" > /dev/null 2>&1 ; then
-    "$SCRIPT_PATH"/report-failure.sh "$file" "$(loadFullShape "$shapesPath")" "$(cat "$file")" "check results"
+    bash "$SCRIPT_PATH"/report-failure.sh "$file" "$(loadFullShape "$shapesPath")" "$(cat "$file")" "check results"
     FAILED=1
   else
     echo "✅ PASS - $name"
