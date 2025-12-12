@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "listFiles": false,
+    "outDir": "./build/ts",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@lindas/yasgui": ["./packages/yasgui/src"],
+      "@lindas/yasgui-utils": ["./packages/yasgui-utils/src"],
+      "@lindas/yasqe": ["./packages/yasqe/src"],
+      "@lindas/yasr": ["./packages/yasr/src"]
+    }
+  },
+  "files": ["./packages/yasgui/typings-custom/main.d.ts"],
+  "include": [
+    "./packages/yasgui/src/**/*",
+    "./packages/yasgui-utils/src/**/*",
+    "./packages/yasqe/src/**/*",
+    "./packages/yasr/src/**/*",
+    "./webpack/**/*",
+    "./packages/yasqe/grammar/tokenizer.ts"
+  ],
+  "compileOnSave": false,
+  "exclude": ["**/build/**", "**/node_modules/**"]
+}

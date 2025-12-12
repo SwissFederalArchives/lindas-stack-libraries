@@ -19,7 +19,7 @@ export default function get(): Config {
     persistencyExpire: 60 * 60 * 24 * 30,
     persistenceLabelResponse: "response",
     persistenceLabelConfig: "config",
-    maxPersistentResponseSize: 100000,
+    maxPersistentResponseSize: 10000000,
     prefixes: {},
     plugins: {},
     pluginOrder: ["table", "response"], // Default plugins, others are sorted alphabetically
