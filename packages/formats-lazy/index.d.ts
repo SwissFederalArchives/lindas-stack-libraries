@@ -1,10 +1,12 @@
 /// <reference types="node" />
+import { EventEmitter } from 'events';
+import { Stream } from '@rdfjs/types';
 import SinkMap from '@rdfjs/sink-map';
-declare const parsers: SinkMap<import("events")<[never]>, import("events")<[never]>>;
-declare const serializers: SinkMap<import("events")<[never]>, import("events")<[never]>>;
+declare const parsers: SinkMap<EventEmitter, Stream>;
+declare const serializers: SinkMap<Stream, EventEmitter>;
 declare const formats: {
-    parsers: SinkMap<import("events")<[never]>, import("events")<[never]>>;
-    serializers: SinkMap<import("events")<[never]>, import("events")<[never]>>;
+    parsers: SinkMap<EventEmitter, Stream>;
+    serializers: SinkMap<Stream, EventEmitter>;
 };
 declare const JsonLdParser: import("./LazySink.js").SinkProxyConstructor<typeof import("@rdfjs/parser-jsonld").default>;
 declare const N3Parser: import("./LazySink.js").SinkProxyConstructor<typeof import("@rdfjs/parser-n3").default>;
