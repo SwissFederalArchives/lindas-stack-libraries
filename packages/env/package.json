@@ -70,7 +70,7 @@
     "@lindas/env-core": "*",
     "@lindas/prefixes": "*",
     "clownface": "^2.0.2",
-    "get-stream": "^9.0.1",
+    "get-stream": "^8.0.0",
     "rdf-dataset-ext": "^1.1.0",
     "readable-stream": "^4.5.2",
     "util": "^0.12.5"

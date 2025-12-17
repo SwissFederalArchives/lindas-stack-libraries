@@ -30,7 +30,9 @@ export default class Environment {
   }
 
   clone() {
-    const env = new Environment(this._factories, this._parent)
+    // Ensure we pass the parent option correctly
+    const options = this._parent ? { parent: this._parent } : {}
+    const env = new Environment(this._factories, options)
 
     for (const factory of env._factories) {
       if (typeof factory.prototype.clone === 'function') {
