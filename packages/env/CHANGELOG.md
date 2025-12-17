@@ -1,4 +1,13 @@
-# @zazuko/env
+# @lindas/env
+
+## 3.0.5
+
+### Patch Changes
+
+- Downgraded get-stream from ^9.0.1 to ^8.0.0 to fix Angular/esbuild bundler compatibility issue.
+  The @sec-ant/readable-stream transitive dependency from get-stream v9 uses async generator
+  patterns that cause "TypeError: Cannot convert undefined or null to object at Object.getPrototypeOf"
+  errors when bundled with Angular's esbuild-based builder.
 
 ## 3.0.1
 

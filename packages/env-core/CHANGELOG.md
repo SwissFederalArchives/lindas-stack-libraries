@@ -1,4 +1,18 @@
-# @zazuko/env-core
+# @lindas/env-core
+
+## 1.2.0
+
+### Minor Changes
+
+- Added comprehensive proxy traps to the extend() function to ensure proper object behavior:
+  - getPrototypeOf: Returns Object.prototype to fix "Cannot convert undefined or null to object" errors
+  - setPrototypeOf: Returns true to allow prototype operations
+  - isExtensible: Returns true
+  - preventExtensions: Returns false
+  - defineProperty: Returns true
+  - deleteProperty: Returns true
+- These traps ensure the proxy behaves correctly when used with JavaScript introspection operations
+  and bundlers that perform object analysis during build time.
 
 ## 1.1.2
 
