@@ -1,5 +1,13 @@
 # @lindas/formats-lazy
 
+## 1.0.1
+
+### Bug Fixes
+
+- Fixed malformed TypeScript type declarations in index.d.ts
+- SinkMap generic types now correctly use `EventEmitter` and `Stream` from @rdfjs/types
+- Fixes TS2345 type error when using `env.formats.import(formats)` with @lindas/env
+
 ## 1.0.0
 
 ### Initial Release
