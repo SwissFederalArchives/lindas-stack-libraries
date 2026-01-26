@@ -38,6 +38,7 @@ coverage/
 .env.*.local
 
 # NPM
+.npmrc
 .npmrc.local
 
 # Upstream sources (for development only)
