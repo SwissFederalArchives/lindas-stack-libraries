@@ -1,6 +1,6 @@
 {
   "name": "@lindas/shacl-playground",
-  "version": "3.0.2",
+  "version": "4.7.0",
   "description": "SHACL Playground Library",
   "main": "index.js",
   "types": "index.d.ts",

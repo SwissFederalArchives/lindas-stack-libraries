@@ -1,6 +1,6 @@
 {
   "name": "@lindas/clownface",
-  "version": "2.0.3",
+  "version": "4.7.0",
   "description": "Simple but powerful graph traversing library",
   "main": "index.js",
   "type": "module",

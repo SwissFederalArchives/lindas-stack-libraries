@@ -1,6 +1,6 @@
 {
   "name": "lindas-stack-libraries",
-  "version": "0.0.4",
+  "version": "4.7.0",
   "private": true,
   "description": "LINDAS RDF Stack - Monorepo for all LINDAS RDF libraries",
   "repository": {
