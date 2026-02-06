@@ -1,6 +1,6 @@
 {
   "name": "@lindas/vue-graph-layout",
-  "version": "0.1.7",
+  "version": "4.7.0",
   "description": "Vue Graph Layout Component",
   "author": "Zazuko (https://zazuko.com)",
   "type": "module",

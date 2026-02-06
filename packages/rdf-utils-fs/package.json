@@ -1,6 +1,6 @@
 {
   "name": "@lindas/rdf-utils-fs",
-  "version": "3.3.2",
+  "version": "4.7.0",
   "description": "RDF Filesystem Utilities",
   "main": "index.js",
   "type": "module",
