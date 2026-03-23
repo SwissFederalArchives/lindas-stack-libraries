@@ -42,3 +42,4 @@ coverage/
 
 # Upstream sources (for development only)
 _upstream/
+.npmrc
