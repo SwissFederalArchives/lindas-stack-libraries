@@ -173,7 +173,7 @@ export default class Table implements Plugin<PluginConfig> {
       ...this.yasr.results?.getVariables().map((name) => {
         return <ConfigColumns>{
           name,
-          title: sanitize(name),
+          title: escape(name),
           render: (data: Parser.BindingValue | "", type: any, _row: any, _meta: CellMetaSettings) => {
             // Handle empty rows
             if (data === "") return data;
