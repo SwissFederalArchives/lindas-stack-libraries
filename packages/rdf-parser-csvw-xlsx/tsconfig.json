@@ -7,7 +7,7 @@
     "strict": true,
     "strictNullChecks": true,
     "noImplicitAny": true,
-    "types": ["node"]
+    "types": ["node", "mocha"]
   },
   "exclude": ["test", "node_modules"]
 }
