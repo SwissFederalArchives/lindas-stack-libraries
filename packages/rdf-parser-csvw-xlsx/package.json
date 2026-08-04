@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/SwissFederalArchives/lindas-stack-libraries",
   "dependencies": {
-    "@lindas/rdf-parser-csvw": "^0.17",
+    "@lindas/rdf-parser-csvw": "*",
     "exceljs": "^4.4.0",
     "lodash": "^4.17.21",
     "readable-stream": "^4.5.2"
@@ -52,7 +52,7 @@
     "@types/lodash": "^4.17.4",
     "@types/mocha": "^10.0.6",
     "@types/uri-templates": "^0.1.34",
-    "@lindas/env-node": "^3.0.2",
+    "@lindas/env-node": "*",
     "c8": "^10.1.3",
     "eslint-import-resolver-typescript": "^3.6.1",
     "get-stream": "^9.0.1",
