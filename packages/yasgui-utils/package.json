@@ -14,7 +14,7 @@
     "directory": "packages/yasgui-utils"
   },
   "dependencies": {
-    "dompurify": "^3.2.4",
+    "dompurify": "^3.4.13",
     "store": "^2.0.12"
   },
   "devDependencies": {
