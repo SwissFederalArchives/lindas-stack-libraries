@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.7.1
+
+### Patch Changes
+
+- 79f6c9e: Include built YASGUI distribution assets in the published package.
+
 ## 4.6.1
 
 ### Patch Changes
