@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.7.1
+
+### Patch Changes
+
+- 57ee645: Escape SPARQL result variable names before using them as DataTables column titles.
+
 ## 4.6.1
 
 ### Patch Changes
