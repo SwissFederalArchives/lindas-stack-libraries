@@ -21,7 +21,7 @@
     "clean": "turbo run clean",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build test && changeset publish"
+    "release": "turbo run build test && npm run build:yasgui:distribute && changeset publish"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
